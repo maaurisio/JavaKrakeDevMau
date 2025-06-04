@@ -13,5 +13,15 @@ public class TestAuto {
 		System.out.println("Marca: " + auto1.marca);
 		System.out.println("Año: " + auto1.anio);
 		System.out.println("Precio: " + auto1.precio);
+		
+		System.out.println("***********************");
+		
+		auto2.marca = "Toyota";
+		auto2.anio = 2000;
+		auto1.precio = 60.000;
+		
+		System.out.println("Marca: " + auto2.marca);
+		System.out.println("Año: " + auto2.anio);
+		System.out.println("Precio: " + auto2.precio);
 	}
 }
