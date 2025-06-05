@@ -3,10 +3,15 @@ package com.krakedev;
 public class TestAuto {
 
 	public static void main(String[] args) {
+		Auto autoC = new Auto("Hyundai", 2025, 25.000);
+
 		Auto auto1 = new Auto();
 		Auto auto2 = new Auto();
+		
+		System.out.println("X: "+ autoC.getMarca());
 
-		auto1.setMarca("Marca");
+		System.out.println("***********************");
+		auto1.setMarca("Mazda");
 		auto1.setAnio(2020);
 		auto1.setPrecio(10.000);
 
